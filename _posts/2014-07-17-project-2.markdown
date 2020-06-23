@@ -1,11 +1,13 @@
 ---
 layout: default
+project-title: Egg Shopper
 modal-id: 2
-date: 2014-07-17
-img: cake.png
+date: 2020-02-01
+img: eggShopper.png
 alt: image-alt
-project-date: April 2014
-client: Start Bootstrap
-category: Web Development
-description: Use this area of the page to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.
+project-date: January 2020
+project-url: https://github.com/TheGoodEggs/TheGoodEggsShopper
+# client: Start Bootstrap
+# category: Web Development
+description: A full stack e-commerce site including user login, shopping cart, and product filters. This eggcellent site is a mock shopping app designed for users to shop for their favorite kinds of eggs!
 ---

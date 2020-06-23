@@ -1,11 +1,16 @@
 ---
+title: Adel Jabbar
+# for the site itself ^^
 layout: default
+project-title: FitMinded
 modal-id: 1
-date: 2014-07-18
-img: cabin.png
+date: 2020-02-01
+img: fitminded.png
 alt: image-alt
-project-date: April 2014
-client: Start Bootstrap
-category: Web Development
-description: Use this area of the page to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.
+project-date: February 2020
+project-url: https://github.com/Fit-Minded/fit-minded
+# client: Start Bootstrap
+# category: Web Development
+description: A platform for connecting individuals who have similar athletic interests. FitMinded allows users to set their athletic preferences and location so they can find the perfect training partner. Training for a triathlon but need to practice your freestyle? Use FitMinded to find other swimmers you can plan workouts with! Love rock-climbing but need a belaying buddy? Use FitMinded to find those also passionate in the climbing arts! Whatever the experience level or personal preference, FitMinded will help fitness enthusiasts connect with others.
+url: https://github.com/Fit-Minded/fit-minded
 ---

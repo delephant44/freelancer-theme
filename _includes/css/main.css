@@ -78,6 +78,7 @@ hr.star-primary:after {
 
 .img-centered {
     margin: 0 auto;
+    max-height: 600px;
 }
 
 header {
@@ -454,4 +455,38 @@ footer .footer-below {
 .modal.fade.in {
     transform: translateZ(0);
     -webkit-transform: translateZ(0);
+}
+
+/* my stuff */
+
+.profilePic {
+    height: 30%;
+    width: 30%;
+    border-radius: 50%;
+}
+
+.projectHeader {
+    text-align: center
+}
+
+.hobbyIcon {
+    display: flex;
+    justify-content: center;
+    height: 80%;
+    width: auto;
+}
+
+.hobbyIcon img {
+    padding: 5px;
+    max-width: 100px;
+    max-height: 100px;
+    height: auto;
+    width: 100px;
+    min-width: 30px;
+    min-height: 30px;
+}
+
+.portfolioImage {
+    max-height: 290px;
+    margin: 0 auto;
 }

@@ -1,26 +1,52 @@
+<!-- Portfolio Grid Section -->
+<section id="portfolio">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2>Portfolio</h2>
+        <hr class="star-primary" />
+      </div>
+    </div>
+    <div class="row">
+      {% for post in site.posts %}
+      <div class="col-sm-6 portfolio-item">
+        <a
+          href="#portfolioModal-{{ post.modal-id }}"
+          class="portfolio-link"
+          data-toggle="modal"
+        >
+          <div class="caption">
+            <div class="caption-content">
+              <i class="fa fa-search-plus fa-3x"></i>
+            </div>
+          </div>
+          <!-- added my own class below, portfolioImage -->
+          <img
+            src="img/portfolio/{{ post.img }}"
+            class="img-responsive portfolioImage"
+            alt="{{ post.alt }}"
+          />
+          <h4 class="projectHeader">{{ post.project-title }}</h4>
 
-    <!-- Portfolio Grid Section -->
-    <section id="portfolio">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2>Portfolio</h2>
-                    <hr class="star-primary">
-                </div>
+          <!-- <div class="card" style="width: 18rem;">
+            <img
+              src="https://via.placeholder.com/286x180.png"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
             </div>
-            <div class="row">
-                {% for post in site.posts %}
-                    <div class="col-sm-4 portfolio-item">
-                        <a href="#portfolioModal-{{ post.modal-id }}" class="portfolio-link" data-toggle="modal">
-                            <div class="caption">
-                                <div class="caption-content">
-                                    <i class="fa fa-search-plus fa-3x"></i>
-                                </div>
-                            </div>
-                            <img src="img/portfolio/{{ post.img }}" class="img-responsive" alt="{{ post.alt }}">
-                        </a>
-                    </div>
-                {% endfor %}
-            </div>
-        </div>
-    </section>
+          </div> -->
+
+        </a>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
