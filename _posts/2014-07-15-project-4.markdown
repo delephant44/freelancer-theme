@@ -1,0 +1,14 @@
+---
+title: Adel Jabbar
+layout: default
+project-title: Project Tracker
+modal-id: 4
+date: 2020-10-22
+img: projectTracker.png
+alt: image-alt
+project-date: October 2020
+project-url: https://github.com/delephant44/projectTracker
+# client: Start Bootstrap
+# category: Web Development
+description: A React app to show insight on how much time the user spends on specific projects in order to help manage time and organize priorities. Includes a stopwatch timer for each project.
+---

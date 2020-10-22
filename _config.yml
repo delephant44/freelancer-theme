@@ -1,11 +1,13 @@
 # Site settings
 title: Adel Jabbar
 email: adeljabb@gmail.com
-url: https://github.com/jeromelachaud/freelancer-theme
+url: https://delephant44.github.io/freelancer-theme/
 description: "Adel Jabbar - Full Stack Software Engineer"
 keywords: "your keywords, separated by commas"
 skills: "Full Stack Software Engineer"
 meta_author: LastName FirstName
+baseurl: /
+# https://delephant44.github.io/freelancer-theme
 
 # Google webmaster tools
 google_verify:

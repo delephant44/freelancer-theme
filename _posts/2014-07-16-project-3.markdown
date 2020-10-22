@@ -1,0 +1,14 @@
+---
+title: Adel Jabbar
+layout: default
+project-title: Movie Seat Booking
+modal-id: 3
+date: 2020-08-18
+img: movieBooking.png
+alt: image-alt
+project-date: August 2020
+project-url: https://github.com/delephant44/movieBooking
+# client: Start Bootstrap
+# category: Web Development
+description: A landing page for selecting and booking available movie seats at the theater! Built with HTML, CSS, and Javascript.
+---
